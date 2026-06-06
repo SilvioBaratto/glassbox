@@ -1,0 +1,22 @@
+{
+  "modality": [
+    "text",
+    "text",
+    "text",
+    "text",
+    "text",
+    "image"
+  ],
+  "label": [
+    "Come si fa a capire tutto?",
+    "Io non lo so ma ti spiego come l'AI capisce foto, testi e audio in una volta sola.",
+    "Un modello linguistico lavora solo con testo. Ma come fa a \"leggerlo\"? Non lo legge come noi. Spezza ogni parola in token, e ogni token diventa un numero. Il modello non vede la parola \"gatto\" — vede una lista di numeri. Tutto quello che capisce, lo capisce in numeri.",
+    "Con il testo il gioco è semplice: ogni parola ha il suo numero e il modello ci legge dentro il contesto. Ma con un'immagine? Lì non è affatto banale — se ci pensi, una foto non è fatta di parole.",
+    "Un modello come Gemini, invece, lavora con tutto: testo, immagini, audio, video. Il trucco di fondo resta lo stesso — trasformare ogni cosa in numeri. Ma è il modo in cui lo fa che cambia tutto.",
+    "sample_image.jpg"
+  ],
+  "colors": {
+    "text": "#3B82F6",
+    "image": "#F97316"
+  }
+}

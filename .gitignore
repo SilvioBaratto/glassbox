@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+graphify-out/
+
+.code-generator/
+
+# script.md is the project's source of truth for narration; force-track it
+!script.md
+
+# === Glassbox project artefacts ===
+# Extracted tensors (regenerate via extract/*.py)
+data/*.npy
+
+# Manim renders
+output/
+*.mp4
+
+# HuggingFace / model cache (downloaded on first run)
+**/checkpoints/
+**/__model_cache__/
+.huggingface/
+
+# Manim media cache (per-invocation temp)
+media/
+
+# script.md is force-tracked via `!script.md` above (line 224). Do NOT
+# re-ignore it here — the LAST matching gitignore pattern wins, and a
+# bare `script.md` line at the end would silently re-ignore the file.
