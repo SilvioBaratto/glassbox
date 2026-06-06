@@ -1,0 +1,13 @@
+# code-generator-managed: true
+name: ci
+"on":
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "no project manifest detected; CI is a placeholder"

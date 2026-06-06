@@ -1,0 +1,10 @@
+# code-generator-managed: true
+name: release
+"on":
+  push:
+    tags: ['v*']
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "no project manifest detected; release is a placeholder"
